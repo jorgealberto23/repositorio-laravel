@@ -45,12 +45,13 @@ class CidadeController extends Controller
             'siglaCidade' => 'string|required',
             'nomeVereador' => 'string|required'
         ]);
-        
+
         $id->fill($registros);
         $id->save();
 
         return Redirect::route('home-cidade');
     }
+
     public function MostrarCidadeCodigo(cidade $id)
     {
         return view("alteracidade", ['registrosCidade' => $id]);

@@ -68,8 +68,8 @@
     <form method="post" action="" class="mb-5">
         @csrf
         <div class="mb-3">
-            <label for="inputevento" class="form-label">Digite Evento:</label>
-            <input type="text" class="form-control col-md-6" id="inputevento" name="nomeEvento" placeholder="Digite o nome do evento">
+            <label for="inputevento" class="form-label">Digite a Cidade:</label>
+            <input type="text" class="form-control col-md-6" id="inputevento" name="nomeEvento" placeholder="Digite o nome da cidade">
         </div>
         <button type="submit" class="btn btn-primary">Pesquisar</button>
     </form>
